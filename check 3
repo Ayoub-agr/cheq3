@@ -1,0 +1,139 @@
+html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docplanner Group</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div>
+        <nav>
+            <a href="#ab"><img class="logo" src="res/logo-default-group-en.svg" alt="logo"></a>
+        </nav>
+        </div>
+        <nav class="header-menu">
+            <a class="b" href="#ab">about us</a>
+            <a href="#ca">Career</a>
+            <a href="#dp">department</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="intro-logo">
+                <img src="res/sygnet.png" alt="img">
+            </div>
+            <h1 class="intro-tilte">
+                Making the healthcare experience more human
+            </h1>
+            <div class="intro-text">
+                <p>We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere.</p>
+                <p>We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients.</p>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="services-card services-card-p">
+               <div class="services-card-title">For patient</div>
+               <h2 class="services-card-text">
+                Find a doctor, book a visit and solve any health-related doubt
+               </h2>
+               <div class="services-card-img"></div>
+            </div>
+            <div class="services-card services-card-d">
+                <div class="services-card-title">For docters</div>
+                <h2 class="services-card-text">
+                    Save time managing visits and cut no-shows by half
+                </h2>
+                <div class="services-card-img"></div>
+            </div>
+            <div class="services-card services-card-c">
+                <div class="services-card-title">For clinics</div>
+                <h2 class="services-card-text">
+                Deliver an exceptional patient experience in your clinic
+                </h2>
+                <div class="services-card-img"></div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
+css
+body{
+  font-family: sans-serif;
+  color: #747474;
+  background:white;
+}
+.b{
+ color: #00b39b;
+ text-decoration: none;
+}
+a{
+  justify-content: space-between;
+  color: #ababab;
+  text-decoration: none;
+}
+.logo{
+  width: 268px;
+  height: 33px;
+}  
+header{
+  
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 179px;
+  
+}
+
+.intro {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+.intro-logo {
+ 
+  display: flex;
+  height: 35;
+  width: 35;
+  margin: 30px 0;
+
+}
+.intro-tilte{
+ 
+  display: flex;
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+.services{
+  display: flex;
+  margin: 15px 179px; 
+}
+.services-card-title{
+  font-weight: bold;
+}
+.services-card{
+  padding: 20px;
+  color: white;
+  margin: 10px;
+  border-radius: 8px;
+  height: 300px;
+}
+.services-card-p{
+  background-color: #00b39b;
+}  
+.services-card-d{
+  background-color: #3d83df;
+}
+.services-card-c{
+  background-color: #1b2734 ;
+}
+
+
+
+  
